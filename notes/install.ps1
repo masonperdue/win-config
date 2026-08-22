@@ -26,6 +26,8 @@ mkdir ~/Projects
 cd ~/Projects
 # Setup ssh agent in Bitwarden
 git clone git@github.com:masonperdue/win-config.git
+    cd win-config
+    cp Microsoft.PowerShell_profile.ps1 $PROFILE
 scoop install neovim
 	git clone git@github.com:masonperdue/neovim-config.git
 	cd neovim-config
