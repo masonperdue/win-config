@@ -22,15 +22,15 @@ scoop cat git
 scoop status
     scoop update
     scoop update *
-mkdir ~/Projects
-cd ~/Projects
+New-Item -ItemType Directory -Path ~/Projects
+Set-Location ~/Projects
 # Setup ssh agent in Bitwarden
 git clone git@github.com:masonperdue/win-config.git
-    cd win-config
-    cp Microsoft.PowerShell_profile.ps1 $PROFILE
+    Set-Location win-config
+    Copy-Item Microsoft.PowerShell_profile.ps1 $PROFILE
 scoop install neovim
 	git clone git@github.com:masonperdue/neovim-config.git
-	cd neovim-config
+	Set-Location neovim-config
     New-Item -ItemType Junction -Path C:/Users/perdu/AppData/Local/nvim -Target C:/Users/perdu/Projects/neovim-config/nvim
 scoop install bind ffmpeg ghostscript exiftool
 winget install miktex.miktex
