@@ -13,7 +13,7 @@ scoop install git
 	git config --global commit.gpgSign true
 	git config --global tag.gpgSign true
 	git config --global gpg.format ssh
-	# notepad ~/.ssh/id_ed25519-GitHub.pub
+	notepad C:\Users\perdu\.ssh\id_ed25519-GitHub.pub
 	git config --global user.signingkey C:\Users\perdu\.ssh\id_ed25519-GitHub.pub
 	# DO: Backup .gitconfig
 mkdir ~\Projects
