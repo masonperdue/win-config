@@ -3,6 +3,7 @@
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop cat git
 scoop install git
 	reg import "C:\Users\perdu\scoop\apps\git\current\install-associations.reg"
 	reg import "C:\Users\perdu\scoop\apps\git\current\install-context.reg"
@@ -13,8 +14,8 @@ scoop install git
 	git config --global commit.gpgSign true
 	git config --global tag.gpgSign true
 	git config --global gpg.format ssh
-	notepad C:\Users\perdu\.ssh\id_ed25519-GitHub.pub
-	git config --global user.signingkey C:\Users\perdu\.ssh\id_ed25519-GitHub.pub
+	notepad ~/.ssh/id_ed25519-GitHub.pub
+	git config --global user.signingkey ~/.ssh/id_ed25519-GitHub.pub
 	# DO: Backup .gitconfig
 mkdir ~\Projects
 git clone git@github.com:masonperdue/win-config.git
