@@ -1,0 +1,68 @@
+{
+    "apps": [
+        {
+            "Name": "7zip",
+            "Updated": "2026-08-22T11:25:45.6629244-07:00",
+            "Source": "main",
+            "Version": "26.02",
+            "Info": ""
+        },
+        {
+            "Name": "bind",
+            "Updated": "2026-08-22T12:09:42.5955478-07:00",
+            "Source": "main",
+            "Version": "9.16.50",
+            "Info": ""
+        },
+        {
+            "Name": "exiftool",
+            "Updated": "2026-08-22T12:16:07.760811-07:00",
+            "Source": "main",
+            "Version": "13.59",
+            "Info": ""
+        },
+        {
+            "Name": "ffmpeg",
+            "Updated": "2026-08-22T12:11:42.8552142-07:00",
+            "Source": "main",
+            "Version": "9.0.1",
+            "Info": ""
+        },
+        {
+            "Name": "gcc",
+            "Updated": "2026-08-22T18:19:30.1982767-07:00",
+            "Source": "main",
+            "Version": "15.2.0",
+            "Info": ""
+        },
+        {
+            "Name": "ghostscript",
+            "Updated": "2026-08-22T12:13:11.0885484-07:00",
+            "Source": "main",
+            "Version": "10.07.1",
+            "Info": ""
+        },
+        {
+            "Name": "git",
+            "Updated": "2026-08-22T11:25:55.6038558-07:00",
+            "Source": "main",
+            "Version": "2.55.0.5",
+            "Info": ""
+        },
+        {
+            "Name": "neovim",
+            "Updated": "2026-08-22T11:54:14.8567388-07:00",
+            "Source": "main",
+            "Version": "0.12.4",
+            "Info": ""
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2026-08-22T17:33:53-07:00",
+            "Manifests": 1635
+        }
+    ]
+}
