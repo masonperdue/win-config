@@ -32,5 +32,5 @@ scoop install neovim
 	git clone git@github.com:masonperdue/neovim-config.git
 	Set-Location neovim-config
     New-Item -ItemType Junction -Path C:/Users/perdu/AppData/Local/nvim -Target C:/Users/perdu/Projects/neovim-config/nvim
-scoop install bind ffmpeg ghostscript exiftool
+scoop install bind ffmpeg ghostscript exiftool gcc
 winget install miktex.miktex
