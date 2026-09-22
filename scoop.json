@@ -1,68 +1,89 @@
 {
     "apps": [
         {
-            "Name": "7zip",
-            "Updated": "2026-08-22T11:25:45.6629244-07:00",
+            "Updated": "2026-09-06T12:32:21.5363631-07:00",
+            "Version": "26.03",
+            "Info": "",
             "Source": "main",
-            "Version": "26.02",
-            "Info": ""
+            "Name": "7zip"
         },
         {
-            "Name": "bind",
             "Updated": "2026-08-22T12:09:42.5955478-07:00",
-            "Source": "main",
             "Version": "9.16.50",
-            "Info": ""
+            "Info": "",
+            "Source": "main",
+            "Name": "bind"
         },
         {
-            "Name": "exiftool",
+            "Updated": "2026-09-06T12:32:28.8163213-07:00",
+            "Version": "3.14.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "dark"
+        },
+        {
             "Updated": "2026-08-22T12:16:07.760811-07:00",
-            "Source": "main",
             "Version": "13.59",
-            "Info": ""
-        },
-        {
-            "Name": "ffmpeg",
-            "Updated": "2026-08-22T12:11:42.8552142-07:00",
+            "Info": "",
             "Source": "main",
-            "Version": "9.0.1",
-            "Info": ""
+            "Name": "exiftool"
         },
         {
-            "Name": "gcc",
+            "Updated": "2026-09-21T21:25:20.4549379-07:00",
+            "Version": "9.0.2",
+            "Info": "",
+            "Source": "main",
+            "Name": "ffmpeg"
+        },
+        {
             "Updated": "2026-08-22T18:19:30.1982767-07:00",
-            "Source": "main",
             "Version": "15.2.0",
-            "Info": ""
-        },
-        {
-            "Name": "ghostscript",
-            "Updated": "2026-08-22T12:13:11.0885484-07:00",
+            "Info": "",
             "Source": "main",
-            "Version": "10.07.1",
-            "Info": ""
+            "Name": "gcc"
         },
         {
-            "Name": "git",
+            "Updated": "2026-09-10T00:37:49.4828216-07:00",
+            "Version": "17.1",
+            "Info": "",
+            "Source": "main",
+            "Name": "gdb"
+        },
+        {
+            "Updated": "2026-09-21T21:25:24.5366795-07:00",
+            "Version": "10.08.0",
+            "Info": "",
+            "Source": "main",
+            "Name": "ghostscript"
+        },
+        {
             "Updated": "2026-08-22T11:25:55.6038558-07:00",
-            "Source": "main",
             "Version": "2.55.0.5",
-            "Info": ""
+            "Info": "",
+            "Source": "main",
+            "Name": "git"
         },
         {
-            "Name": "neovim",
-            "Updated": "2026-08-22T11:54:14.8567388-07:00",
+            "Updated": "2026-08-31T17:33:06.8599939-07:00",
+            "Version": "0.12.5",
+            "Info": "",
             "Source": "main",
-            "Version": "0.12.4",
-            "Info": ""
+            "Name": "neovim"
+        },
+        {
+            "Updated": "2026-09-06T12:32:49.6172201-07:00",
+            "Version": "3.14.7",
+            "Info": "",
+            "Source": "main",
+            "Name": "python"
         }
     ],
     "buckets": [
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2026-08-22T17:33:53-07:00",
-            "Manifests": 1635
+            "Updated": "2026-09-21T18:02:54-07:00",
+            "Manifests": 1655
         }
     ]
 }
